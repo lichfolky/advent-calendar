@@ -148,10 +148,6 @@ body {
     width: 13.4%;
 }
 
-.row.top .cel:nth-child(n+2):nth-child(-n+4) {
-    width: 13.9%;
-}
-
 .row.bottom .cell {
     width: 12%;
 }
