@@ -11,6 +11,19 @@
     box-sizing: border-box;
 }
 
+@media(max-width: 650px) {
+
+    html,
+    body {
+        width: 650px;
+        overflow: auto;
+
+    }
+
+    #calendar {}
+
+}
+
 html,
 body {
     height: 100%;
@@ -38,8 +51,8 @@ body {
         ". bs bs bs bs bs ." 18%
         ". is is c ie ie ." 14.1%
         ". is is c ie ie ." 14.1%
-        ". be be be be be ." 18.4% ". . . . . . ." auto / 9.6vw 15.2vw 15.8vw 15.9vw 15vw 16.2vw 8.7vw;
-    gap: 0.8% 0.59vw;
+        ". be be be be be ." 18.4% ". . . . . . ." auto / 9.6% 15.2% 15.8% 15.9% 15% 16.2% 1fr;
+    gap: 0.8% 0.6%;
 }
 
 .group {
@@ -150,6 +163,7 @@ body {
 .row.bottom .cell:nth-child(5) {
     width: 12.5%;
 }
+
 
 /* subgrid experiment
 .inline-start-group {
